@@ -538,5 +538,125 @@
     "correct": 0,
     "explanation": "The Open Source Definition was adapted from the Debian Free Software Guidelines.",
     "source": "https://opensource.org/osd"
+  },
+  {
+    "id": "dpg-01",
+    "topic": "dpg",
+    "difficulty": 1,
+    "question": "What does DPG stand for?",
+    "answers": [
+      "Digital Public Good",
+      "Digital Product Group",
+      "Developer Package Guide",
+      "Data Protection Goal"
+    ],
+    "correct": 0,
+    "explanation": "A Digital Public Good is open source software, open data, open AI models, open standards or open content that does no harm and helps attain the SDGs.",
+    "source": "https://digitalpublicgoods.net/"
+  },
+  {
+    "id": "dpg-02",
+    "topic": "dpg",
+    "difficulty": 1,
+    "question": "Which organization maintains the DPG Standard and the DPG Registry?",
+    "answers": [
+      "Digital Public Goods Alliance",
+      "Free Software Foundation",
+      "GitHub",
+      "Linux Foundation"
+    ],
+    "correct": 0,
+    "explanation": "The Digital Public Goods Alliance (DPGA) is a multi-stakeholder initiative that maintains the DPG Standard and the Registry.",
+    "source": "https://digitalpublicgoods.net/standard/"
+  },
+  {
+    "id": "dpg-03",
+    "topic": "dpg",
+    "difficulty": 1,
+    "question": "A DPG must show relevance to which goals?",
+    "answers": [
+      "UN Sustainable Development Goals (SDGs)",
+      "Olympic Charter",
+      "ISO 9001",
+      "GitHub Sponsors goals"
+    ],
+    "correct": 0,
+    "explanation": "Indicator 1 of the DPG Standard requires relevance to the 17 UN Sustainable Development Goals.",
+    "source": "https://sdgs.un.org/goals"
+  },
+  {
+    "id": "dpg-04",
+    "topic": "dpg",
+    "difficulty": 2,
+    "question": "A free-of-charge app is published under a proprietary license. Can it become a DPG?",
+    "answers": [
+      "No, it needs an approved open license",
+      "Yes, because it is free",
+      "Yes, if it is popular",
+      "Only if it is hosted on GitHub"
+    ],
+    "correct": 0,
+    "explanation": "Free of charge is not the same as open. The DPG Standard requires an approved open license (e.g. OSI-approved for software).",
+    "source": "https://digitalpublicgoods.net/standard/"
+  },
+  {
+    "id": "dpg-05",
+    "topic": "dpg",
+    "difficulty": 2,
+    "question": "An app has open code but collects personal data without consent. Does it meet the DPG Standard?",
+    "answers": [
+      "No, it must respect privacy laws and do no harm",
+      "Yes, the code is open",
+      "Yes, if it uses the MIT license",
+      "Privacy only matters in the EU"
+    ],
+    "correct": 0,
+    "explanation": "The Standard requires adherence to privacy and applicable laws and \"Do No Harm by Design\", including data privacy and security.",
+    "source": "https://digitalpublicgoods.net/standard/"
+  },
+  {
+    "id": "dpg-06",
+    "topic": "dpg",
+    "difficulty": 2,
+    "question": "Which of these is one of the 9 DPG Standard indicators?",
+    "answers": [
+      "Documentation",
+      "At least 1000 GitHub stars",
+      "A paid support plan",
+      "Being written in Python"
+    ],
+    "correct": 0,
+    "explanation": "The indicators include SDG relevance, open license, clear ownership, platform independence, documentation, data extraction, privacy, standards and do no harm.",
+    "source": "https://digitalpublicgoods.net/standard/"
+  },
+  {
+    "id": "dpg-07",
+    "topic": "dpg",
+    "difficulty": 3,
+    "question": "What does \"platform independence\" mean in the DPG Standard?",
+    "answers": [
+      "Closed mandatory dependencies need open alternatives",
+      "It must run only on Linux",
+      "It must be a web application",
+      "It may have no dependencies at all"
+    ],
+    "correct": 0,
+    "explanation": "If a project depends on components more restrictive than its license, it must show independence from them or that functional open alternatives exist.",
+    "source": "https://digitalpublicgoods.net/standard/"
+  },
+  {
+    "id": "dpg-08",
+    "topic": "dpg",
+    "difficulty": 3,
+    "question": "What must a DPG allow with the non-personal data and content it collects?",
+    "answers": [
+      "Export or import in a non-proprietary format",
+      "Selling it to advertisers",
+      "Automatic deletion after one day",
+      "Access only through a paid API"
+    ],
+    "correct": 0,
+    "explanation": "Indicator 6 (data extraction) requires that non-PII data and content can be extracted or imported in a non-proprietary format.",
+    "source": "https://digitalpublicgoods.net/standard/"
   }
 ]

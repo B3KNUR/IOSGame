@@ -538,5 +538,125 @@
     "correct": 0,
     "explanation": "Open Source Definition была адаптирована из Debian Free Software Guidelines.",
     "source": "https://opensource.org/osd"
+  },
+  {
+    "id": "dpg-01",
+    "topic": "dpg",
+    "difficulty": 1,
+    "question": "Что означает аббревиатура DPG?",
+    "answers": [
+      "Digital Public Good — цифровое общественное благо",
+      "Digital Product Group",
+      "Developer Package Guide",
+      "Data Protection Goal"
+    ],
+    "correct": 0,
+    "explanation": "Цифровое общественное благо — это открытое ПО, открытые данные, AI-модели, стандарты или контент, которые не причиняют вреда и помогают достигать ЦУР.",
+    "source": "https://digitalpublicgoods.net/"
+  },
+  {
+    "id": "dpg-02",
+    "topic": "dpg",
+    "difficulty": 1,
+    "question": "Какая организация ведёт DPG Standard и реестр DPG?",
+    "answers": [
+      "Digital Public Goods Alliance",
+      "Free Software Foundation",
+      "GitHub",
+      "Linux Foundation"
+    ],
+    "correct": 0,
+    "explanation": "Digital Public Goods Alliance (DPGA) — инициатива с участием многих сторон, которая поддерживает стандарт и реестр DPG.",
+    "source": "https://digitalpublicgoods.net/standard/"
+  },
+  {
+    "id": "dpg-03",
+    "topic": "dpg",
+    "difficulty": 1,
+    "question": "С какими целями должен быть связан DPG?",
+    "answers": [
+      "Целями устойчивого развития ООН (ЦУР/SDGs)",
+      "Олимпийской хартией",
+      "Стандартом ISO 9001",
+      "Целями GitHub Sponsors"
+    ],
+    "correct": 0,
+    "explanation": "Первый индикатор DPG Standard требует связи с 17 целями устойчивого развития ООН.",
+    "source": "https://sdgs.un.org/goals"
+  },
+  {
+    "id": "dpg-04",
+    "topic": "dpg",
+    "difficulty": 2,
+    "question": "Бесплатное приложение распространяется под проприетарной лицензией. Может ли оно стать DPG?",
+    "answers": [
+      "Нет, нужна одобренная открытая лицензия",
+      "Да, ведь оно бесплатное",
+      "Да, если оно популярное",
+      "Только если код лежит на GitHub"
+    ],
+    "correct": 0,
+    "explanation": "Бесплатно — не значит открыто. Стандарт требует одобренную открытую лицензию (для ПО — одобренную OSI).",
+    "source": "https://digitalpublicgoods.net/standard/"
+  },
+  {
+    "id": "dpg-05",
+    "topic": "dpg",
+    "difficulty": 2,
+    "question": "Код приложения открыт, но оно собирает персональные данные без согласия. Соответствует ли оно DPG Standard?",
+    "answers": [
+      "Нет, нужно соблюдать законы о приватности и не причинять вред",
+      "Да, код ведь открыт",
+      "Да, если лицензия MIT",
+      "Приватность важна только в ЕС"
+    ],
+    "correct": 0,
+    "explanation": "Стандарт требует соблюдения законов о приватности и принципа «Do No Harm by Design», включая защиту данных.",
+    "source": "https://digitalpublicgoods.net/standard/"
+  },
+  {
+    "id": "dpg-06",
+    "topic": "dpg",
+    "difficulty": 2,
+    "question": "Что из этого входит в 9 индикаторов DPG Standard?",
+    "answers": [
+      "Документация",
+      "Не меньше 1000 звёзд на GitHub",
+      "Платная техподдержка",
+      "Код на Python"
+    ],
+    "correct": 0,
+    "explanation": "Индикаторы: связь с ЦУР, открытая лицензия, ясное владение, независимость от платформы, документация, извлечение данных, приватность, стандарты и «не навреди».",
+    "source": "https://digitalpublicgoods.net/standard/"
+  },
+  {
+    "id": "dpg-07",
+    "topic": "dpg",
+    "difficulty": 3,
+    "question": "Что означает «независимость от платформы» в DPG Standard?",
+    "answers": [
+      "У закрытых обязательных зависимостей должны быть открытые альтернативы",
+      "Проект должен работать только на Linux",
+      "Проект должен быть веб-приложением",
+      "У проекта не может быть зависимостей"
+    ],
+    "correct": 0,
+    "explanation": "Если проект зависит от компонентов с более строгими условиями, чем его лицензия, нужно показать независимость от них или наличие рабочих открытых альтернатив.",
+    "source": "https://digitalpublicgoods.net/standard/"
+  },
+  {
+    "id": "dpg-08",
+    "topic": "dpg",
+    "difficulty": 3,
+    "question": "Что DPG должен позволять делать с собираемыми неперсональными данными и контентом?",
+    "answers": [
+      "Выгружать и загружать их в непроприетарном формате",
+      "Продавать их рекламодателям",
+      "Автоматически удалять через день",
+      "Получать их только через платный API"
+    ],
+    "correct": 0,
+    "explanation": "Индикатор 6 (извлечение данных) требует возможности выгрузки и загрузки неперсональных данных в непроприетарном формате.",
+    "source": "https://digitalpublicgoods.net/standard/"
   }
 ]

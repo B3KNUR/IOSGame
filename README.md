@@ -30,14 +30,15 @@ python3 -m http.server 8080
 
 ## Вопросы и источники
 
-36 оригинальных вопросов в двух языковых версиях:
+44 оригинальных вопроса в двух языковых версиях:
 
 - лицензии: MIT, GPL, Apache 2.0, AGPL, копилефт, пермиссивные лицензии;
 - Git и GitHub: fork, PR, issue, commit, merge, rebase, fetch, revert;
 - культура участия: CONTRIBUTING, кодекс поведения, SemVer, changelog, bug report;
-- история: GNU, Linux, FSF, OSI, свободы ПО, Debian Free Software Guidelines.
+- история: GNU, Linux, FSF, OSI, свободы ПО, Debian Free Software Guidelines;
+- цифровые общественные блага (DPG): DPG Standard и его индикаторы, связь с ЦУР ООН, Digital Public Goods Alliance.
 
-У каждого вопроса есть пояснение и ссылка на первоисточник: [OSI](https://opensource.org/osd), [GNU](https://www.gnu.org/licenses/gpl-faq.html), [Git](https://git-scm.com/docs), [GitHub Docs](https://docs.github.com), [SemVer](https://semver.org/). Короткие пояснения предназначены для обучения, а конкретные обязанности определяются текстом применимой лицензии.
+У каждого вопроса есть пояснение и ссылка на первоисточник: [OSI](https://opensource.org/osd), [GNU](https://www.gnu.org/licenses/gpl-faq.html), [Git](https://git-scm.com/docs), [GitHub Docs](https://docs.github.com), [SemVer](https://semver.org/), [DPG Standard](https://digitalpublicgoods.net/standard/). Короткие пояснения предназначены для обучения, а конкретные обязанности определяются текстом применимой лицензии.
 
 **Силлабус `Introduction to OS_Gerassimov M.pdf` не был предоставлен в рабочей папке.** Набор составлен по темам из задания, без утверждения о соответствии отсутствующему документу. После добавления PDF следует сверить темы и дополнить набор.
 
@@ -73,7 +74,7 @@ js/
   game.js                  цикл, состояния, очки, чекпоинты
   ui.js                    интерфейс, магазин, i18n, хранилище
   bundled-data.js          генерируемая копия JSON для file://
-questions/{ru,en}.json      36 вопросов на каждом языке
+questions/{ru,en}.json      44 вопроса на каждом языке
 questions/schema.json      JSON Schema 2020-12
 i18n/{ru,en}.json           словари интерфейса
 assets/                    иконка и скриншоты
